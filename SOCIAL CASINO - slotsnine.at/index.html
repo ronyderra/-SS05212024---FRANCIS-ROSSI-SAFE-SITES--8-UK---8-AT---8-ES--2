@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Entsperren Sie die aufregenden Spiele der sozialen Casinos mit Slotsnine. Wir bieten eine breite Palette von Spielen, die Ihrem Geschmack entsprechen.">
+    <meta name="keywords" content="Soziale Casinospiele, Casino-Social-Spiele, Kostenlose soziale Casinospiele">
+    <title>Slotsnine öffnet die Tür zu Freude und Spaß mit dem sozialen Casino.</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="assets/inline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body bg-black">
+    <div id="agePopup" class="age-popup">
+        <div class="age-popup-content">
+            <h2>Altersüberprüfung</h2>
+            <p>Bitte bestätigen Sie Ihr Alter, bevor Sie auf diesen Inhalt zugreifen. Sind Sie über 18 Jahre alt?</p>
+            <div class="age-popup-buttons">
+                <button id="btnYes"
+                    class="age-popup-button theme-btn-s2 text-decoration-none text-uppercase">Ja</button>
+                <button id="btnNo"
+                    class="age-popup-button theme-btn-s2 text-decoration-none text-uppercase">Nein</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var agePopup = document.getElementById("agePopup");
+            var btnYes = document.getElementById("btnYes");
+            var btnNo = document.getElementById("btnNo");
+
+            btnYes.addEventListener("click", function () {
+                agePopup.style.display = "none";
+                // Add your logic for the "Yes" button action here
+            });
+
+            btnNo.addEventListener("click", function () {
+                window.location.href = "https://www.google.com/";
+            });
+        });
+    </script>
+    <div id="root">
+        <div class="App" id="scrool">
+            <div class="App">
+                <div class="fixed-navbar animated fadeInDown active">
+                    <div class="middle-header">
+                        <div class="header-style-3 undefined bg-black">
+                            <div class="container-fluid">
+                                <div class="header-content">
+                                    <div class="row align-items-center">
+                                        <div class="col-lg-4 col-md-6 col-9">
+                                            <div class="logo">
+                                                <a href="index.html"><img src="assets/logo-red-white.png" alt=""></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-8 col-md-6 d-lg-block d-none">
+                                            <nav>
+                                                <ul class="text-end">
+                                                    <li><a class="text-light text-decoration-none text-uppercase"
+                                                            href="index.html">Startseite</a></li>
+                                                    <li><a class="text-light text-decoration-none text-uppercase"
+                                                            href="about-us.html">Über uns</a></li>
+                                                    <li><a class="text-light text-decoration-none text-uppercase"
+                                                            href="games.html">Spiele</a></li>
+                                                    <li><a class="text-light text-decoration-none text-uppercase"
+                                                            href="contact-us.html">Kontaktieren Sie uns</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                        <div class="col-md-6 col-3 last-toggle">
+                                            <div class="toggle-btn text-end">
+                                                <i class="fa-solid fa-bars" id="mobile-menu"></i>
+                                            </div>
+                                            <div class="mobileMenu bg-black">
+                                                <div
+                                                    class="logo-and-close d-flex align-items-center justify-content-between px-4 py-4">
+                                                    <div class="logo">
+                                                        <a href="index.html"><img src="assets/logo-red-white.png"
+                                                                alt=""></a>
+                                                    </div>
+                                                    <div class="close-btn text-end">
+                                                        <i class="fa-solid fa-xmark fs-1 close-btn"
+                                                            style="color: #EA011D;"></i>
+                                                    </div>
+
+                                                </div>
+                                                <ul>
+                                                    <li class="py-2"><a
+                                                            class="text-light text-decoration-none text-uppercase"
+                                                            href="index.html">Startseite</a></li>
+                                                    <li class="py-2"><a
+                                                            class="text-light text-decoration-none text-uppercase"
+                                                            href="about-us.html">Über uns</a></li>
+                                                    <li class="py-2"><a
+                                                            class="text-light text-decoration-none text-uppercase"
+                                                            href="games.html">Spiele</a></li>
+                                                    <li class="py-2"><a
+                                                            class="text-light text-decoration-none text-uppercase"
+                                                            href="contact-us.html">Kontaktieren Sie uns</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <section class="hero">
+                    <div class="hero-style-1 d-flex align-items-center justify-content-center"
+                        style="background-image: url(assets/home-bg.jpg);">
+                        <div class="container">
+                            <div class=" slide-caption">
+                                <div class="slide-title">
+                                    <h2 class="text-center text-uppercase">Willkommen bei Slotsnine Social Casino</h2>
+                                </div>
+                                <div class="slide-subtitle">
+                                    <p class="text-center">Slotsnine ist Ihre letzte Anlaufstelle für das beste soziale
+                                        Online-Casino-Erlebnis! Wir bieten eine Vielzahl von Spielen, aufregende
+                                        Werbeangebote und eine freundliche Umgebung, um sicherzustellen, dass jeder Dreh
+                                        Ihnen Freude und unvergessliche Erinnerungen bringt.
+                                    </p>
+                                </div>
+                                <div class="btns text-center"><a class="theme-btn text-decoration-none"
+                                        href="games.html">JETZT SPIELEN</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="service-area section-padding bg-gray">
+                    <div class="container">
+                        <div class="col-12">
+                            <div class="wpo-section-title text-center">
+                                <h2 class="text-light">Was können wir Ihnen anbieten?</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-6 col-md-6 custom-grid col-12">
+                                <div class="service-item">
+                                    <div class="service-icon"><i class="fa-solid fa-download fs-2"
+                                            style="color: #EA011D;"></i></div>
+                                    <div class="service-text mt-4">
+                                        <h2 class="text-light">Kein Download</h2>
+                                        <p class="text-light">Sie können Online-Social-Casinospiele spielen, ohne die
+                                            Spiele herunterladen zu müssen.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-6 custom-grid col-12">
+                                <div class="service-item">
+                                    <div class="service-icon"><i class="fa-regular fa-address-card fs-2"
+                                            style="color: #EA011D;"></i></div>
+                                    <div class="service-text mt-4">
+                                        <h2 class="text-light">Keine Registrierungsgebühr</h2>
+                                        <p class="text-light">Es gibt keine Registrierungsgebühr. Melden Sie sich an und
+                                            beginnen Sie ohne Probleme mit dem Spielen.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-6 custom-grid col-12">
+                                <div class="service-item">
+                                    <div class="service-icon"><i class="fa-solid fa-headphones-simple fs-2"
+                                            style="color: #EA011D;"></i></div>
+                                    <div class="service-text mt-4">
+                                        <h2 class="text-light">Kundensupport-Service</h2>
+                                        <p class="text-light">Wir bieten unseren Kunden umfassende Anleitung und Hilfe.
+                                            Wir sind hier, um Ihre Fragen zu beantworten.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-lg-6 col-md-6 custom-grid col-12">
+                                <div class="service-item">
+                                    <div class="service-icon"><i class="fa-solid fa-play fs-2"
+                                            style="color: #EA011D;"></i></div>
+                                    <div class="service-text mt-4">
+                                        <h2 class="text-light">Ununterbrochenes und unbegrenztes Spielen</h2>
+                                        <p class="text-light">Genießen Sie unbegrenztes und kostenloses Spielen mit
+                                            Slotsnine.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <section class="Room-area section-padding undefined bg-dark">
+                    <div class="Room-section">
+                        <div class="wpo-section-title text-center">
+                            <h2 class="text-light">Unsere Spiele</h2>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col col-xs-12 sortable-gallery">
+                                    <div class="gallery-container">
+                                        <div class="tab-content">
+                                            <div class="tab-pane active">
+                                                <div class="grid">
+                                                    <div class="room-item"><img src="assets/baccarat-triple-treat.jpg"
+                                                            alt="" class="img img-responsive">
+                                                        <div class="room-text-show">
+                                                            <h2>Baccarat Triple Treat</h2>
+                                                        </div>
+                                                        <div class="room-text-hide text-center">
+                                                            <h2 class="mb-3">Baccarat Triple Treat</h2>
+                                                            <a class="theme-btn-s2 text-decoration-none"
+                                                                href="baccarat-triple-treat.html">Jetzt spielen</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid">
+                                                    <div class="room-item"><img src="assets/china-charms.jpg" alt=""
+                                                            class="img img-responsive">
+                                                        <div class="room-text-show">
+                                                            <h2>China Charms</h2>
+                                                        </div>
+                                                        <div class="room-text-hide text-center">
+                                                            <h2 class="mb-3">China Charms</h2>
+                                                            <a class="theme-btn-s2 text-decoration-none"
+                                                                href="china-charms.html">Jetzt spielen</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="grid">
+                                                    <div class="room-item"><img src="assets/fire-in-the-hole-xbomb.jpg"
+                                                            alt="" class="img img-responsive">
+                                                        <div class="room-text-show">
+                                                            <h2>Fire in the Hole Xbomb</h2>
+                                                        </div>
+                                                        <div class="room-text-hide text-center">
+                                                            <h2 class="mb-3">Fire in the Hole Xbomb</h2>
+                                                            <a class="theme-btn-s2 text-decoration-none"
+                                                                href="fire-in-the-hole-xbomb.html">Jetzt spielen</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="btns text-center"><a
+                                                class="theme-btn text-decoration-none text-uppercase"
+                                                href="games.html">Alle anzeigen</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="wpo-about-area section-padding">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-12 col-sm-12">
+                                <div class="wpo-about-img text-start"><img src="assets/why-choose-us.png" alt=""></div>
+                            </div>
+                            <div class="col-lg-6 col-md-12 colsm-12">
+                                <div class="wpo-about-text">
+                                    <div class="wpo-section-title">
+                                        <h2 class="text-light">Warum uns wählen?</h2>
+                                    </div>
+                                    <p class="text-light">Slotsnine ist auf mobilen Geräten verfügbar. Sie können Ihre
+                                        Lieblingsspiele auf Ihrem Smartphone oder Tablet spielen, egal ob zu Hause oder
+                                        entspannt nach dem morgendlichen Pendeln.
+                                    </p>
+                                    <ul class="m-0 p-0">
+                                        <li class="d-flex gap-3 align-items-center py-1"><i
+                                                class="fa-solid fa-circle-check fs-4" style="color: #EA011D;"></i>
+                                            <p class="m-0 p-0 text-light">Verschiedene Spiele</p>
+                                        </li>
+                                        <li class="d-flex gap-3 align-items-center py-1"><i
+                                                class="fa-solid fa-circle-check fs-4" style="color: #EA011D;"></i>
+                                            <p class="m-0 p-0 text-light">Kostenloser Download.</p>
+                                        </li>
+                                        <li class="d-flex gap-3 align-items-center py-1"><i
+                                                class="fa-solid fa-circle-check fs-4" style="color: #EA011D;"></i>
+                                            <p class="m-0 p-0 text-light">Klares und einfaches Interface
+                                            </p>
+                                        </li>
+
+                                        <li class="d-flex gap-3 align-items-center py-1"><i
+                                                class="fa-solid fa-circle-check fs-4" style="color: #EA011D;"></i>
+                                            <p class="m-0 p-0 text-light">Grenzenloses Spielen
+                                            </p>
+                                        </li>
+
+                                        <li class="d-flex gap-3 align-items-center py-1"><i
+                                                class="fa-solid fa-circle-check fs-4" style="color: #EA011D;"></i>
+                                            <p class="m-0 p-0 text-light">Vertrauenswürdige und kompetente Plattform
+                                            </p>
+                                        </li>
+
+                                        <li class="d-flex gap-3 align-items-center py-1"><i
+                                                class="fa-solid fa-circle-check fs-4" style="color: #EA011D;"></i>
+                                            <p class="m-0 p-0 text-light">Kundenservice rund um die Uhr
+                                            </p>
+                                        </li>
+
+                                    </ul>
+                                    <div class="btns"><a class="theme-btn-s2 text-decoration-none text-uppercase"
+                                            href="contact-us.html">Kontaktieren Sie uns</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="other-section section-padding" style="background-image: url(assets/other-image.jpg)">
+                    <div class="container">
+                        <div class="other-section-main text-center">
+                            <div class="wpo-section-title text-center">
+                                <h2 class="text-light">Live-Gaming ist eine großartige Möglichkeit, Spaß zu haben.</h2>
+                            </div>
+                            <p class="text-light">Soziale Casinospiele sind perfekt für diejenigen, die den Nervenkitzel
+                                eines sozialen, lebensechten Online-Casinos erleben möchten. Spielen Sie Ihre
+                                Lieblingstischspiele von zu Hause aus und interagieren Sie in Echtzeit mit
+                                professionellen Dealern. Unsere Live-Dealer-Spiele bieten ein einzigartiges
+                                Spielerlebnis, egal ob Sie Ihre Fähigkeiten bei einem Pokerspiel gegen andere Spieler
+                                testen möchten oder Ihr Glück am Roulette-Rad versuchen.
+                            </p>
+                            <div class="btns"><a class="theme-btn-s2 text-decoration-none text-uppercase"
+                                    href="games.html">JETZT SPIELEN</a></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="faq-section section-padding bg-dark">
+                    <div class="container">
+                        <div class="faq-main">
+                            <div class="wpo-section-title text-center">
+                                <h2 class="text-light">Häufig gestellte Fragen anzeigen</h2>
+                            </div>
+                            <div class="faq" id="accordion">
+                                <div class="card">
+                                    <div class="card-header" id="faqHeading">
+                                        <div class="mb-0">
+                                            <h5 class="faq-title text-light" data-toggle="collapse"
+                                                data-target="#faqCollapse" data-aria-expanded="true"
+                                                data-aria-controls="faqCollapse">
+                                                Ja, Slotsnine ist sicher zu spielen.
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="faqCollapse" class="collapse" aria-labelledby="faqHeading"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p class="text-light">Die Sicherheit unserer Spieler hat bei Slotsnine
+                                                oberste Priorität. Wir verwenden Verschlüsselung, um sensible
+                                                Informationen und Transaktionen zu schützen. Unsere Spiele sind
+                                                ebenfalls fair und werden täglich von unabhängigen Dritten überprüft, um
+                                                Integrität und Transparenz zu gewährleisten.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="faqHeading-1">
+                                        <div class="mb-0">
+                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1"
+                                                data-aria-expanded="true" data-aria-controls="faqCollapse-1">
+                                                Was ist ein soziales Casino?
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p class="text-light">Soziale Casinos sind Online-Plattformen, die
+                                                Casinospiele wie Poker, Blackjack und Spielautomaten anbieten. Der
+                                                Hauptunterschied besteht darin, dass Sie mit virtuellen Credits oder
+                                                Fremdwährung anstelle von echtem Geld spielen. Der Nervenkitzel des
+                                                Online-Casinospiels steht im Vordergrund, ohne finanzielles Risiko.
+                                                Diese Plattformen haben oft soziale Funktionen, die es Ihnen
+                                                ermöglichen, mit Freunden zu chatten, in Ranglisten zu konkurrieren und
+                                                sich während des Spiels zu vernetzen.
+
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" id="faqHeading-2">
+                                        <div class="mb-0">
+                                            <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2"
+                                                data-aria-expanded="true" data-aria-controls="faqCollapse-2">
+                                                Wer kann in sozialen Casinos spielen?
+
+                                            </h5>
+                                        </div>
+                                    </div>
+                                    <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2"
+                                        data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p class="text-light">Soziale Casinos sind für jeden offen, der das
+                                                Mindestalter erfüllt, das normalerweise 18 oder 21 Jahre beträgt, je
+                                                nachdem, wo sich die Plattform befindet. Dies ist eine großartige Option
+                                                für diejenigen, die Spaß haben möchten, ohne um echtes Geld zu spielen.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <footer class="wpo-site-footer">
+                    <div class="footer-middle bg-black">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5 col-md-6">
+                                    <div class="widget market-widget wpo-service-link-widget">
+                                        <div class="widget-title">
+                                            <div class="footer-logo mb-4">
+                                                <a href="index.html"><img src="assets/logo-red-white.png"
+                                                        alt="logo"></a>
+                                            </div>
+                                            <p>Glücksspiel kann zu Sucht und finanziellen Schwierigkeiten führen. Bitte
+                                                spielen Sie verantwortungsbewusst. Wenn Sie oder jemand, den Sie kennen,
+                                                unter Spielsucht leidet, suchen Sie professionelle Hilfe oder besuchen
+                                                Sie <a class="text-decoration-none" style="color:#EA011D"
+                                                    href="https://www.gambleaware.org/">GambleAware</a> für
+                                                Unterstützung und Ressourcen. Gehen Sie immer vorsichtig mit Glücksspiel
+                                                um und seien Sie sich der damit verbundenen Risiken bewusst.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="widget market-widget wpo-service-link-widget">
+                                        <div class="widget-title">
+                                            <h3>Schnellzugriffe</h3>
+                                            <ul class="m-0 p-0 mt-4">
+                                                <li class="py-1"><a class="text-light text-decoration-none"
+                                                        href="index.html">Startseite</a></li>
+                                                <li class="py-1"><a class="text-light text-decoration-none"
+                                                        href="about-us.html">Über uns</a></li>
+                                                <li class="py-1"><a class="text-light text-decoration-none"
+                                                        href="games.html">Spiele</a></li>
+                                                <li class="py-1"><a class="text-light text-decoration-none"
+                                                        href="contact-us.html">Kontaktiere uns</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="widget market-widget wpo-service-link-widget">
+                                        <div class="widget-title">
+                                            <h3>Contact Info</h3>
+                                            <ul class="m-0 p-0 mt-4">
+                                                <li class="py-1"><a class="text-light text-decoration-none" href="#"><i
+                                                            class="fa-solid fa-map-location-dot me-2 fs-5"></i>Ziegelgasse
+                                                        77, 5271 GRUBEDT</a></li>
+
+                                                <li class="py-1"><a class="text-light text-decoration-none"
+                                                        href="mailto:info@slotsnine.at"><i
+                                                            class="fa-solid fa-envelope-open-text me-2 fs-5"></i>
+                                                        info@slotsnine.at</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wpo-lower-footer bg-dark">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col col-lg-6 col-md-6 col-12">
+                                    <p class="copyright">©
+                                        <script>
+                                            document.write(new Date().getFullYear())
+                                        </script>
+                                        Slotsnine. Alle Rechte vorbehalten.
+                                    </p>
+                                </div>
+                                <div class="col col-lg-6 col-md-6 col-12">
+                                    <div class="term ">
+                                        <ul class="text-lg-end text-center">
+                                            <li><a class="text-decoration-none" href="privacy-policy.html"
+                                                    target="_blank">Datenschutzbestimmungen</a></li>
+                                            <li><a class="text-decoration-none" href="terms-and-conditions.html"
+                                                    target="_blank">Geschäftsbedingungen</a></li>
+                                            <li><a class="text-decoration-none" href="disclaimer.html"
+                                                    target="_blank">Haftungsausschluss</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#mobile-menu").click(function () {
+                $(".mobileMenu").addClass("moible-Menu-show");
+            });
+            $(".close-btn").click(function () {
+                $(".mobileMenu").removeClass("moible-Menu-show");
+            });
+        })
+    </script>
+
+    <script>
+        function ccBanner() {
+            //Change these values
+            var msg =
+                "Diese Website verwendet Cookies, um sicherzustellen, dass Sie das beste Erlebnis auf unserer Website erhalten.";
+            var closeBtnMsg = "OK";
+            var privacyBtnMsg = "Erfahren Sie mehr";
+            var privacyLink = "https://www.google.com";
+
+            //check cookies
+            if (document.cookie) {
+                var cookieString = document.cookie;
+                var cookieList = cookieString.split(";");
+                // if cookie named OKCookie is found, return
+                for (x = 0; x < cookieList.length; x++) {
+                    if (cookieList[x].indexOf("OKCookie") != -1) {
+                        return;
+                    }
+                }
+            }
+
+            var docRoot = document.body;
+            var okC = document.createElement("div");
+            okC.setAttribute("id", "okCookie");
+            var okCp = document.createElement("p");
+            var okcText = document.createTextNode(msg);
+
+            //close button
+            var okCclose = document.createElement("a");
+            var okcCloseText = document.createTextNode(closeBtnMsg);
+            okCclose.setAttribute("href", "#");
+            okCclose.setAttribute("id", "okClose");
+            okCclose.appendChild(okcCloseText);
+            okCclose.addEventListener("click", closeCookie, false);
+
+            //privacy button
+            var okCprivacy = document.createElement("a");
+            var okcPrivacyText = document.createTextNode(privacyBtnMsg);
+            okCprivacy.addEventListener("click", () => {
+                return void window.open("/privacy-policy")
+            });
+
+            //okCprivacy.setAttribute("href", privacyLink);
+            okCprivacy.setAttribute("id", "okCprivacy");
+            okCprivacy.appendChild(okcPrivacyText);
+
+            //add to DOM
+            const btnContainer = document.createElement("div");
+            btnContainer.style.display = "flex";
+            btnContainer.style.alignItems = "center";
+            btnContainer.appendChild(okCclose);
+            btnContainer.appendChild(okCprivacy);
+            okCp.appendChild(okcText);
+            okC.appendChild(okCp);
+            //okC.appendChild(okCclose);
+            okC.appendChild(btnContainer);
+            docRoot.appendChild(okC);
+
+            okC.classList.add("okcBeginAnimate");
+
+            function closeCookie() {
+                var cookieExpire = new Date();
+                cookieExpire.setFullYear(cookieExpire.getFullYear() + 2);
+                document.cookie =
+                    "OKCookie=1; expires=" + cookieExpire.toGMTString() + ";";
+                docRoot.removeChild(okC);
+            }
+        }
+
+        ccBanner();
+    </script>
+
+    
+</body>
+
+</html>
